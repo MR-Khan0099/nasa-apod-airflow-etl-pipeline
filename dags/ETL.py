@@ -14,7 +14,7 @@ with DAG(
     schedule_interval='@daily',
     catchup=False
 
-) as dag:
+) as dag: 
     
     ## step 1: Create the table if it doesnt exists
 
