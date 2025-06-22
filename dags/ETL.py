@@ -41,7 +41,7 @@ with DAG(
 
 
     ## Step 2: Extract the NASA API Data(APOD)-Astronomy Picture of the Day[Extract pipeline]
-    ## https://api.nasa.gov/planetary/apod?api_key=7BbRvxo8uuzas9U3ho1RwHQQCkZIZtJojRIr293q
+    ## https://api.nasa.gov/planetary/apod?api_key=****
     extract_apod=SimpleHttpOperator(
         task_id='extract_apod',
         http_conn_id='nasa_api',  ## Connection ID Defined In Airflow For NASA API

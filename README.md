@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Overview
 ========
 
@@ -86,5 +86,5 @@ This stage involves extracting relevant fields like title, explanation, url, and
 The transformed data is loaded into a Postgres table using PostgresHook.
 If the target table doesn’t exist in the Postgres database, it is created automatically as part of the DAG using a create table task.
 =======
-# nasa-apod-etl-pipeline
->>>>>>> e55ccfa638bb8abb7e60c4334b95c815c9d9deea
+
+
