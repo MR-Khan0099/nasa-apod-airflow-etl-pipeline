@@ -86,5 +86,3 @@ This stage involves extracting relevant fields like title, explanation, url, and
 The transformed data is loaded into a Postgres table using PostgresHook.
 If the target table doesn’t exist in the Postgres database, it is created automatically as part of the DAG using a create table task.
 =======
-
-
