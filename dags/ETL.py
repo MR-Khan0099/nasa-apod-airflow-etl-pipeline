@@ -14,7 +14,7 @@ with DAG(
     schedule_interval='@daily',
     catchup=False
 
-) as dag: 
+) as dag:
     
     ## step 1: Create the table if it doesnt exists
 
@@ -33,8 +33,6 @@ with DAG(
             date DATE,
             media_type VARCHAR(50)
         );
-
-
         """
         ## Execute the table creation query
         postgres_hook.run(create_table_query)
